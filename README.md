@@ -8,19 +8,16 @@
 5. [Random Background](#5.-Random-Background)
 
 ## 1. Clock
----
 - `Date` 객체를 사용하여 현재 시간을 가져온다.
 
 ---
 
 ## 2. Greeting
----
 - `Window` 객체의 `localStorage`를 사용하여 사용자의 이름을 저장한다.
 
 ---
 
 ## 3. ToDoList
----
 - `Window` 객체의 `localStorage`를 사용하여 ToDoList를 저장한다.
 - `text(string)`와 `id(number)` member를 가진 object를 정의하여 `ToDoList` 배열에 push하였고, 이 배열을 Storage에 저장한다.
 ```javascript
@@ -38,7 +35,6 @@
 ---
 
 ## 4. Weather
----
   - 위치정보는 `Navigator` 객체의 `geolocation` 속성 메서드 `getCurrentPosition()`를 사용한다.
   - 날씨정보는 [OpenWeatherMap](https://openweathermap.org/)의 API를 사용한다.
   - 날씨정보 API를 불러올 때는 `fetch()`를 사용한다.
@@ -53,7 +49,6 @@
 ---
 
 ## 5. Random Background
----
   - `Math` 객체를 사용하여 난수를 생성한다.
   ```Javascript
     function genRandom() {
